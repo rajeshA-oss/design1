@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            font-family: system-ui;
+        }
+        .menu-items ul{
+            display: flex;
+            justify-content:end;
+            gap: 30px;
+            /* background-color: red; */
+            height: 70px;
+            align-items: center;
+            list-style:none;
+            padding-right: 60px;
+        }
+        .heading{
+            padding: 60px;
+        }
+        .heading h1{
+            font-size: 70px;
+            font-weight: 400;
+        }
+        .content{
+            padding-left: 60px;
+            display: flex; 
+            justify-content: space-between;
+        }
+        .content p{
+            width: 35%;
+            font-size: 20px;
+        }
+        .side-menu{
+            list-style: none;
+            font-size: 24px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 25px;
+            padding-right: 60px;
+        }
+        .side-menu li{
+            border-top: 2px solid black;
+            padding-top: 6px;
+            width: 100%;
+            cursor: pointer;
+        }
+        body img{
+            object-fit: cover;
+            margin-top: 30px;
+        }
+        .box{
+
+            background-color: black;
+            padding: 10px;
+            color: #fff;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <!-- div one -->
+    <div class="menu-items">
+        <ul>
+            <li>About</li>
+            <li>News</li>
+            <li>Cart</li>
+            <li class="box">
+                <i class="ri-shopping-bag-line"></i>
+            </li>
+        </ul>
+    </div>
+    <!-- div one end -->
+    <!-- div two  -->
+    <div class="heading">
+        <h1>Lightly padded,</h1>
+        <h1>quality jacket in </h1>
+        <h1>recycled polyster.</h1>
+    </div>
+    <!-- div two end -->
+    <!-- div three  -->
+    <div class="content">
+        <!-- elem 1 -->
+        <p>Exclusive brands aspire for the label hautecouture, but the term is technically limited to members of the Chmbre Syndicale de la Haute</p>
+        <!-- elem 2 -->
+            <ul class="side-menu">
+                <li>Add to cart</li>
+                <li>Product Details</li>
+                <li>Shipping</li>
+            </ul>
+        </div>
+
+    <!-- div three end -->
+        <img src="https://images.unsplash.com/photo-1698891667741-bdf54fa4b7cb?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" width="100%" height="300px">
+</body>
+</html>
